@@ -1,1 +1,16 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+#produtos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.produto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+}
 
