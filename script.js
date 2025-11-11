@@ -1,18 +1,18 @@
 const produtos = {
   vendidos: [
-    { nome: "Camiseta Básica", preco: "R$ 49,90" },
-    { nome: "Calça Jeans", preco: "R$ 89,90" },
-    { nome: "Jaqueta Casual", preco: "R$ 149,90" }
+    { nome: "Jaqueta Puff", preco: "R$ 169,90" },
+    { nome: "Vestido Indiano", preco: "R$ 119,90" },
+    { nome: "Calça Cargo", preco: "R$ 119,90" }
   ],
   baratos: [
-    { nome: "Regata Simples", preco: "R$ 29,90" },
-    { nome: "Short Esportivo", preco: "R$ 39,90" },
-    { nome: "Boné Estampado", preco: "R$ 25,90" }
+    { nome: "Short Jeans", preco: "R$ 79,00" },
+    { nome: "Calça Jeans Skin", preco: "R$ 99,90" },
+    { nome: "Cropped", preco: "R$ 49,90" }
   ],
   estilosos: [
-    { nome: "Vestido Floral", preco: "R$ 129,90" },
-    { nome: "Camisa Social Slim", preco: "R$ 99,90" },
-    { nome: "Blazer Moderno", preco: "R$ 199,90" }
+    { nome: "Vestido Florido", preco: "R$ 159,90" },
+    { nome: "Jaqueta de Couro", preco: "R$ 169,90" },
+    { nome: "Blusa Polo", preco: "R$ 159,90" }
   ]
 };
 
@@ -28,5 +28,6 @@ function mostrarAba(aba) {
   });
 }
 
-// Mostrar a aba "Mais Vendidos" por padrão
-mostrarAba("vendidos");
+document.addEventListener("DOMContentLoaded", () => {
+  mostrarAba("vendidos");
+});
